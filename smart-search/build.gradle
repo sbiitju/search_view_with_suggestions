@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'maven-publish'
 }
 
 android {
@@ -41,4 +42,18 @@ dependencies {
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
     implementation "com.intuit.ssp:ssp-android:1.1.0"
 
+}
+
+afterEvaluate {
+    publishing {
+        publications{
+            release(MavenPublication){
+                from components.release
+
+                groupId = 'com.github.sbiitju'
+                artifactId = 'search-view-with-suggestions'
+                version = '1.0.0'
+            }
+        }
+    }
 }
