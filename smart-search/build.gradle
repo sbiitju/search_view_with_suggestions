@@ -52,7 +52,7 @@ afterEvaluate {
 
                 groupId = 'com.github.sbiitju'
                 artifactId = 'search-view-with-suggestions'
-                version = '1.0.0'
+                version = '1.0.1'
             }
         }
     }
