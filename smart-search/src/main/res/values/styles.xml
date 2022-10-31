@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextStyleSemiBold" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/proxima_nova_semi_bold</item>
+        <item name="android:fontFamily">@font/proxima_nova_semi_bold</item>
+    </style>
+    <style name="TextStyleRegular" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/proxima_nova_regular</item>
+        <item name="android:fontFamily">@font/proxima_nova_regular</item>
+    </style>
+
+    <style name="TextStyleBold" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/proxima_nova_bold</item>
+        <item name="android:fontFamily">@font/proxima_nova_bold</item>
+    </style>
+
+</resources>

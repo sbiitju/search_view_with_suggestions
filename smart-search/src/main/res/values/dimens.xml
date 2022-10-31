@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="fab_margin">@dimen/_13sdp</dimen>
+
+    <!--Floating action button-->
+    <dimen name="design_fab_image_size" tools:override="true">56dp</dimen>
+
+    <!-- Overrides default text scaling of bottom navigation active state-->
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">14sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">14sp</dimen>
+
+    <!-- Text Size-->
+    <dimen name="text_size_very_small">@dimen/_9sdp</dimen>
+    <dimen name="text_size_ten">@dimen/_10sdp</dimen>
+    <dimen name="text_size_small">@dimen/_11sdp</dimen>
+    <dimen name="text_size_normal">@dimen/_13sdp</dimen>
+    <dimen name="text_size_big">@dimen/_15sdp</dimen>
+    <dimen name="text_size_very_big">@dimen/_18sdp</dimen>
+
+    <!-- Layout Size-->
+    <dimen name="space_zero">0dp</dimen>
+    <dimen name="space_very_small">@dimen/_4sdp</dimen>
+    <dimen name="space_small">@dimen/_8sdp</dimen>
+    <dimen name="space_ten">@dimen/_10sdp</dimen>
+    <dimen name="space_normal">@dimen/_12sdp</dimen>
+    <dimen name="space_big">@dimen/_16sdp</dimen>
+    <dimen name="space_very_big">@dimen/_20sdp</dimen>
+
+    <dimen name="vt_space">@dimen/_7sdp</dimen>
+    <dimen name="hz_space">@dimen/_13sdp</dimen>
+    <dimen name="vt_space_double">@dimen/_14sdp</dimen>
+    <dimen name="hz_space_double">@dimen/_26sdp</dimen>
+
+    <dimen name="card_corner_radius">@dimen/_2sdp</dimen>
+    <dimen name="card_hz_space">@dimen/_8sdp</dimen>
+
+    <dimen name="search_icon_padding">12dp</dimen>
+    <dimen name="search_view_text_padding">8dp</dimen>
+    <dimen name="recycler_view_bottom">104dp</dimen>
+
+    <dimen name="outlet_component_radius">@dimen/_6sdp</dimen>
+    <dimen name="minus_adjust_one">@dimen/_minus28sdp</dimen>
+    <dimen name="minus_adjust_two">@dimen/_minus30sdp</dimen>
+
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#DADADA</color>
+    <color name="colorAccent">#FC8019</color>
+    <color name="colorAccentShadow">#FC8019</color>
+    <color name="colorOnAccent">#F26F31</color>
+    <color name="colorPrimaryText">#292f48</color>
+    <color name="colorSecondaryText">#707c88</color>
+    <color name="colorHintText">#707c88</color>
+    <color name="colorDisabledText">#d1d4d8</color>
+    <color name="colorErrorText">#ff2e37</color>
+    <color name="colorUnchecked">#e4e8ed</color>
+
+    <color name="color_background">#f0f0f0</color>
+    <color name="color_on_background">#292f48</color>
+
+    <color name="item_type_unselected_bg">#ffffff</color>
+    <color name="item_type_unselected_text">@color/colorHintText</color>
+    <color name="item_type_unselected_icon">#FC8019</color>
+
+    <color name="item_type_selected_bg">#FC8019</color>
+    <color name="item_type_selected_text">@color/colorHintText</color>
+    <color name="item_type_selected_icon">#FC8019</color>
+
+    <color name="button_ripple">#33000000</color>
+    <color name="button_pressed">#F26F31</color>
+    <color name="button_disabled">#b9bfc4</color>
+
+    <color name="navigation_bar_divider">#1e000000</color>
+    <color name="divider">#d1d4d8</color>
+    <color name="pre_order_text">#d1d4d8</color>
+
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_black">#292f48</color>
+    <color name="text_grey">#707c88</color>
+    <color name="text_grey_2">#8C9096</color>
+    <color name="filter_unselected_color">#F1F2F2</color>
+
+    <color name="colorBlackTransparent">#90000000</color>
+    <color name="blue_grey">#455A64</color>
+    <color name="red">#F44336</color>
+    <color name="pink">#E91E63</color>
+    <color name="purple">#9C27B0</color>
+    <color name="deep_purple">#673AB7</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="blue">#2196F3</color>
+    <color name="light_blue">#03A9F4</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="teal">#009688</color>
+    <color name="teal_2">#1fb699</color>
+    <color name="green">#4CAF50</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="lime">#CDDC39</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="amber">#FFC107</color>
+    <color name="orange">#FF9800</color>
+    <color name="deep_orange">#FF5722</color>
+    <color name="brown">#795548</color>
+    <color name="grey">#E0E0E0</color>
+    <color name="dim_gray">#d3d3d3</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="black_alpha_50">#80000000</color>
+
+    <color name="ob_indicator_unselected">#d1d4d8</color>
+    <color name="ob_indicator_selected">#fa5757</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="account_bg">@color/color_background</color>
+    <color name="account_bg_border">#d1d4d8</color>
+
+    <color name="gender_default_text">#292f48</color>
+    <color name="gender_default_tint">#f35f2e</color>
+
+    <color name="manage_address_bg">@color/color_background</color>
+    <color name="checkbox_pre_order_unselected">@color/colorDisabledText</color>
+    <color name="checkbox_pre_order_selected">@color/colorAccent</color>
+
+    <color name="border_color">#66292F48</color>
+    <color name="stroke">#e4e8ed</color>
+
+
+    <color name="pre_order_item_selected">#3eebebeb</color>
+    <color name="pre_order_time_picker_bg">#eeeeee</color>
+    <color name="time_picker_indicator">#d3d6da</color>
+    <color name="time_picker_divider">#3eebebeb</color>
+
+
+    <!--  Search widgets  -->
+    <color name="search_layover_bg">@color/gray</color>
+    <color name="search_field_bg">@color/white_ish</color>
+
+    <color name="gray">#ff888888</color>
+    <color name="grayLifeTracking">#d1d4d8</color>
+
+    <color name="white_50">#50ffffff</color>
+    <color name="black_50">#88000000</color>
+    <color name="gray_50">#88888888</color>
+
+    <color name="white_ish">#fffefefe</color>
+    <color name="rating_bar_progress">#F9C83B</color>
+    <color name="background">#eeeeee</color>
+
+    <color name="hashtag_orange">#F26F31</color>
+    <color name="moreinfotext_grey">#474747</color>
+
+    <color name="light_shade_of_gray">#FAFAFA</color>
+
+
+    <color name="ribbon_blue">#79ADA0</color>
+    <color name="ribbon_blue_shadow">#4E756B</color>
+    <color name="closed_translucent_black">#A0000000</color>
+    <color name="collection_title_grey">#6C7174</color>
+    <color name="text_color_white">#FAFAFA</color>
+
+    <color name="color_green_smoke">#79ADA0</color>
+    <color name="color_shade_orange">#FC8019</color>
+    <color name="color_light_orange">#FFF6EF</color>
+    <color name="color_fefefe">#FEFEFE</color>
+    <color name="color_fafafa">#FAFAFA</color>
+    <color name="color_ffffff">#FFFFFF</color>
+    <color name="color_bdbdbd">#BDBDBD</color>
+    <color name="color_fa5757">#FA5757</color>
+
+    <color name="color_new_text">#1E1E1B</color>
+    <color name="color_skip_text">#8D8D8D</color>
+
+</resources>

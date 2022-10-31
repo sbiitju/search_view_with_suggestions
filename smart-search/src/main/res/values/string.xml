@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_search_items">Search for Items</string>
+    <string name="msg_outlet_not_found">Nothing Found !</string>
+    <string name="text_nothing_here">There’s nothing here</string>
+    <string name="text_we_can_not_find_s">We can not find any item named ‘%s’</string>
+    <string name="hint_location_search">Search for area, street name…</string>
+
+</resources>
