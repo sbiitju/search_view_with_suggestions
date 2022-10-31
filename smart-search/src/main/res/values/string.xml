@@ -4,6 +4,6 @@
     <string name="msg_outlet_not_found">Nothing Found !</string>
     <string name="text_nothing_here">There’s nothing here</string>
     <string name="text_we_can_not_find_s">We can not find any item named ‘%s’</string>
-    <string name="hint_location_search">Search for area, street name…</string>
+    <string name="hint_location_search">Type here to search</string>
 
 </resources>

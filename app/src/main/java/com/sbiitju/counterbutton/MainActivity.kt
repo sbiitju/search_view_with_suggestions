@@ -12,21 +12,17 @@ import com.sbiitju.smart_search.SearchViewWithSuggestions
 
 class MainActivity : AppCompatActivity() {
     private lateinit var mainViewModel: MainViewModel
-    private lateinit var button: Button
     private lateinit var searchViewWithSuggestions: SearchViewWithSuggestions
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         supportActionBar?.hide()
         mainViewModel = ViewModelProvider(this)[MainViewModel::class.java]
-        button = findViewById(R.id.searchBtn)
         searchViewWithSuggestions = findViewById(R.id.address)
         mainViewModel.searchResult.observe(this) {
             searchViewWithSuggestions.replaceSearchResult(it)
         }
-        button.setOnClickListener {
-            searchViewWithSuggestions.show()
-        }
+
         searchViewWithSuggestions.searchViewAction =
             object : SearchViewWithSuggestions.SearchViewAction {
                 override fun onReinitialize(editText: AppCompatEditText) {
