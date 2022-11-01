@@ -66,25 +66,6 @@ To use this library, your project's minimum sdk version must be >= 21 and target
 
         }
 
-## ViewModel Class
-
-    val searchResult = MutableLiveData<List<String>?>()
-    val myList = ArrayList<String>()
-    init {
-        myList.add("Shahin")
-        myList.add("Bashar")
-        myList.add("Other Name")
-    }
-    fun searchAddress(query: String) {
-        if (query == "") {
-            searchResult.postValue(null)
-        } else {
-            searchResult.postValue(myList.filter {
-                it.contains(query)
-            })
-        }
-    }
-
 *Complete example [available here](https://github.com/sbiitju/search_view_with_suggestions/tree/master/app/src/main/java/com/sbiitju/counterbutton).*
 
 *Special Thanks to [Md. Imam Hossain](https://github.com/ihjohny)*
