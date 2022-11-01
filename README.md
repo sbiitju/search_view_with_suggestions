@@ -8,16 +8,16 @@ SearchViewWithSuggestions is a simple Suggestions Widget from a String dataset t
 
 To use this library, your project's minimum sdk version must be >= 21 and target/compile sdk version must be >=33.
 
-        allprojects {
-    repositories {
+    allprojects {
+        repositories {
         ...
-        maven { url 'https://jitpack.io' }
+            maven { url 'https://jitpack.io' }
         }
     }
 
-        dependencies {
-                implementation 'com.github.ShaQib07:MediaPicker:latest-release'
-        }
+    dependencies {
+        'com.github.sbiitju:search_view_with_suggestions:1.0.0'
+    }
 
 ## Usage
 
