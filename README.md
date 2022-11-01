@@ -39,11 +39,7 @@ To use this library, your project's minimum sdk version must be >= 21 and target
 ## Activity Class
 
         private lateinit var searchViewWithSuggestions: SearchViewWithSuggestions
-        mainViewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
-        mainViewModel.searchResult.observe(this) {
-        searchViewWithSuggestions.replaceSearchResult(it)
-        }
         searchViewWithSuggestions = findViewById(R.id.searchViewWithSuggestions)
         
         searchViewWithSuggestions.searchViewAction =
