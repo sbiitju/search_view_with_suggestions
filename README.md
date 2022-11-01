@@ -25,7 +25,7 @@ To use this library, your project's minimum sdk version must be >= 21 and target
 
 ### xml_code_sample
 
-           <com.sbiitju.smart_search.SearchViewWithSuggestions
+        <com.sbiitju.smart_search.SearchViewWithSuggestions
         android:id="@+id/searchViewWithSuggestions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,15 +38,15 @@ To use this library, your project's minimum sdk version must be >= 21 and target
 
 ## Activity Class
 
-            private lateinit var searchViewWithSuggestions: SearchViewWithSuggestions
-            mainViewModel = ViewModelProvider(this)[MainViewModel::class.java]
+        private lateinit var searchViewWithSuggestions: SearchViewWithSuggestions
+        mainViewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
-            mainViewModel.searchResult.observe(this) {
-            searchViewWithSuggestions.replaceSearchResult(it)
-            }
-            searchViewWithSuggestions = findViewById(R.id.searchViewWithSuggestions)
-
-            searchViewWithSuggestions.searchViewAction =
+        mainViewModel.searchResult.observe(this) {
+        searchViewWithSuggestions.replaceSearchResult(it)
+        }
+        searchViewWithSuggestions = findViewById(R.id.searchViewWithSuggestions)
+        
+        searchViewWithSuggestions.searchViewAction =
             object : SearchViewWithSuggestions.SearchViewAction {
                 override fun onReinitialize(editText: AppCompatEditText) {
                     mainViewModel.searchAddress("")
@@ -64,7 +64,7 @@ To use this library, your project's minimum sdk version must be >= 21 and target
                     Toast.makeText(this@MainActivity, String, Toast.LENGTH_SHORT).show()
                 }
 
-            }
+        }
 
 ## ViewModel Class
 
@@ -84,7 +84,6 @@ To use this library, your project's minimum sdk version must be >= 21 and target
             })
         }
     }
-https://github.com/sbiitju/search_view_with_suggestions/tree/master/app/src/main/java/com/sbiitju/counterbutton
 
 *Complete example [available here](https://github.com/sbiitju/search_view_with_suggestions/tree/master/app/src/main/java/com/sbiitju/counterbutton).*
 
