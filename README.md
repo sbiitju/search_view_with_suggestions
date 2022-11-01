@@ -36,7 +36,7 @@ To use this library, your project's minimum sdk version must be >= 21 and target
 
 ### kotlin_code_sample
 
-##Activity Class
+## Activity Class
 
             private lateinit var searchViewWithSuggestions: SearchViewWithSuggestions
             mainViewModel = ViewModelProvider(this)[MainViewModel::class.java]
@@ -84,5 +84,8 @@ To use this library, your project's minimum sdk version must be >= 21 and target
             })
         }
     }
+https://github.com/sbiitju/search_view_with_suggestions/tree/master/app/src/main/java/com/sbiitju/counterbutton
 
+*Complete example [available here](https://github.com/sbiitju/search_view_with_suggestions/tree/master/app/src/main/java/com/sbiitju/counterbutton).*
 
+*Special Thanks to [Md. Imam Hossain](https://github.com/ihjohny)*
